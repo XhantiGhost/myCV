@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/frameworks/bootstrap-grid.min.css">
     <link rel="stylesheet" href="/css/frameworks/bootstrap.css">
     <link rel="stylesheet" href="/css/frameworks/bulma.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV of Xhantilomzi Jacob</title>
 </head>
@@ -27,41 +28,48 @@
         <a href="#" class="icon-item">
             XPJ
                 </a>
+                <a class="menu-toggle rounded" href="#">
+                        <i class="fas fa-bars"></i>
+                      </a>
+                      <nav id="sidebar-wrapper">
+                        <ul class="sidebar-nav">
+                          <li class="sidebar-brand">
+                            <a class="js-scroll-trigger" href="#home">HOME</a>
+                          </li>
+                          <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" href="#about">About</a>
+                          </li>
+                          <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" href="#education">EDUCATION</a>
+                          </li>
+                          <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" href="#skills">SKILLS & ABILITIES</a>
+                          </li>
+                          <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" href="#portfolio">FEATURED WORKS</a>
+                          </li>
+                          <li class="sidebar-nav-item">
+                            <a class="js-scroll-trigger" href="#experience">EXPERIENCE</a>
+                          </li>
+                          <li class="sidebar-nav-item">
+                                <a class="js-scroll-trigger" href="#contacts">CONTACTS</a>
+                              </li>
+                        </ul>
+                      </nav>
+
 <header>
         <div class="header">
                 <img src="img/cover-img.jpg" class="img-fluid" alt="Responsive image">
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">HOME</a>
-                            </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">ABOUT</a>
-                                        </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">EDUCATION</a>
-                                                    </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" href="#">SKILLS & ABILITIES</a>
-                                                            </li>
-                                                            <li class="nav-item">
-                                                        <a class="nav-link" href="#">FEATURED WORK</a>
-                                                    </li>
-                                                <li class="nav-item">
-                                            <a class="nav-link" href="#">EXPERIENCE</a>
-                                        </li>
-                                    <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACTS</a>
-                            </li>
-                        </ul>
-            
-
-                <div class="container ">
-                    <h1 class="title has-text-centered" style="color:white;">
+                <div class="container text-center my-auto ">
+                    <h1 class="mb-1" style="color:white;">
                         CV of Xhantilomzi Jacob
                             </h1><br>
-                                <h2 class="subtitle is-15 has-text-centered" style="color:white;">
+                                <h2 class="mb-5" style="color:white;">
                                     Junior Web Developer | Coder | Photographer
                                         </h2>
+                                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">PUSH ME</a>
+    </div>
+    <div class="overlay"></div>
                                             </div>
                                         </div>
                                     </header>
@@ -73,7 +81,7 @@
 
 
     <div class="container2">
-        <div class="introduction">
+        <div class="jumbotron text-center">
             <h3 id="about">
                 <span style="color:black;"> A Brief Introduction About Myself</span>
                     </h3>
@@ -101,6 +109,7 @@
         <h1 class="title" style="color:black">
             Education
                 </h1></br>
+                <div class="shadow-lg p-3 mb-5 bg-white rounded text-center">
                     <h3 class="subtitle2">Salesians Life Choices</h3>
                         <p class="education">
                             The Life Choices Academy is a full-time program which empowers youth from the Cape Flats with life,
@@ -126,6 +135,7 @@
     <li>Geography</li>
 <li>Life Orientation</li>
     </ul>
+        </div>
         </div>
 
 <!-- this is my skills and abilitess div of the code 
@@ -184,89 +194,63 @@
     <div id="works">
         <h1 class="title ">FEATURED WORKS</h1>
             </div><br>
-            <div id="theCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#theCarousel" data-slide-to="0" class="active ">
-                            <img  src="img/main-qimg-a1ff4f317b6129b8f69ca10a39e052c3.png">
-                    </li> 
-                    <li data-target="#theCarousel" data-slide-to="1">
-                            <img  src="img/main-qimg-a1ff4f317b6129b8f69ca10a39e052c3.png">
-                    </li> 
-                    <li data-target="#theCarousel" data-slide-to="2">
-                            <img  src="img/main-qimg-a1ff4f317b6129b8f69ca10a39e052c3.png">
-                    </li> 
-                    <li data-target="#theCarousel" data-slide-to="3">
-                            <img  src="img/main-qimg-a1ff4f317b6129b8f69ca10a39e052c3.png">
-                    </li> 
-                    <li data-target="#theCarousel" data-slide-to="4">
-                            <img  src="img/main-qimg-a1ff4f317b6129b8f69ca10a39e052c3.png">
-                    </li>
-                    <li data-target="#theCarousel" data-slide-to="5">
-                            <img  src="img/main-qimg-a1ff4f317b6129b8f69ca10a39e052c3.png">
-                    </li> 
-                    </ol>
+            <section class="content-section" id="portfolio">
+                    <div class="container8">
+                      <div class="content-section-heading text-center">
+                        <h3 class="text-secondary mb-0">Portfolio</h3>
+                        <h2 class="mb-5">Recent Projects</h2>
+                      </div>
+                      <div class="row no-gutters">
+                        <div class="col-lg-6">
+                          <a class="portfolio-item" href="https://xhantighost.github.io/online_cv/index.html#">
+                            <span class="caption">
+                              <span class="caption-content">
+                                <h2>My First Project the CV</h2>
+                                <p class="mb-0">This was my first project ever!!</p>
+                              </span>
+                            </span>
+                            <img class="img-fluid" src="img/374590_bfb3_3.jpg" alt="">
+                          </a>
+                        </div>
+                        <div class="col-lg-6">
+                          <a class="portfolio-item" href="https://xhantighost.github.io/project2-Jon-Chretien/index.html">
+                            <span class="caption">
+                              <span class="caption-content">
+                                <h2>Jon Chretien Project</h2>
+                                <p class="mb-0">Recreating the Jon Chretien web page</p>
+                              </span>
+                            </span>
+                            <img class="img-fluid" src="img/avatar.jpg" alt="">
+                          </a>
+                        </div>
+                        <div class="col-lg-6">
+                          <a class="portfolio-item" href="https://xhantighost.github.io/project-3-quiz/index.php">
+                            <span class="caption">
+                              <span class="caption-content">
+                                <h2>My Quiz Project</h2>
+                                <p class="mb-0">This was to create a quiz using PHP</p>
+                              </span>
+                            </span>
+                            <img class="img-fluid" src="img/741044d7f68c3ff2ea2935a26b857b1d5189541feaa22f7f117ff17d75c0f890.jpg" alt="">
+                          </a>
+                        </div>
+                        <div class="col-lg-6">
+                          <a class="portfolio-item" href="https://github.com/XhantiGhost/Dreamshare">
+                            <span class="caption">
+                              <span class="caption-content">
+                                <h2>DreamShare project</h2>
+                                <p class="mb-0">This was to recreate a web page</p>
+                              </span>
+                            </span>
+                            <img class="img-fluid" src="img/partner4.jpg" alt="">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+            
+                    
 
-                    <div class="carousel-inner">
-                        <div class="item-active">
-                            <div class="slide1"></div>
-                                <div class="carousel-caption">
-                                    <h5>My First Project the CV</h5>
-                                        <p>This was my first project ever!!</p>
-                                            <p><a href="#" class="btn btn-primary btn-sm">Check it out</a></p>
-                                            </div>
-                                                </div>
-
-                                                    <div class="item">
-                                                <div class="slide1"></div>
-                                            <div class="carousel-caption">
-                                        <h5 class="ih-fade-down ih-delay-sm">Jon Chretien Project</h5>
-                                    <p>This was my first project ever!!</p>
-                                   <p><a href="https://xhantighost.github.io/project2-Jon-Chretien/index.html" class="btn btn-primary btn-sm">Check it out</a></p>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                        <div class="slide1"></div>
-                    <div class="carousel-caption">
-                <h5>My Quiz Project</h5>
-            <p>This was my first project ever!!</p>
-        <p><a href="https://xhantighost.github.io/project-3-quiz/index.php" class="btn btn-primary btn-sm">Check it out</a></p>
-    </div>
-</div>
-
-    <div class="item">
-        <div class="slide1"></div>
-            <div class="carousel-caption">
-                <h5>My First Project the CV</h5>
-                    <p>This was my first project ever!!</p>
-                        <p><a href="#" class="btn btn-primary btn-sm">Check it out</a></p>
-                            </div>
-                                </div>
-
-                                    <div class="item">
-                                        <div class="slide1"></div>
-                                            <div class="carousel-caption">
-                                                <h5>My First Project the CV</h5>
-                                                    <p>This was my first project ever!!</p>
-                                                        <p><a href="#" class="btn btn-primary btn-sm">Check it out</a></p>
-                                                            </div>
-                                                                </div>
-
-                                                                    <div class="item">
-                                                                        <div class="slide1"></div>
-                                                                    <div class="carousel-caption">
-                                                                <h5>My First Project the CV</h5>
-                                                            <p>This was my first project ever!!</p>
-                                                        <p><a href="#" class="btn btn-primary btn-sm">Check it out</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-    <a class="left carousel-control" href="#theCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-    <a class="right carousel-control" href="#theCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-                                        </div>
-                                    </div>
                                        
 <div class="container6">
         <div id="experience">
@@ -316,13 +300,14 @@
 <div class="container8">
     <div id="contacts">
         <div class="card-body">
+                <div class="shadow p-3 mb-5 bg-white rounded text-center">
             <h4 class="title">Contact me On:</h4>
                 <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2">+27 74 361 6269</p>
+                    <p class="pb-2">+27 62 946 1124</p>
                         <p class="mb-0"><strong>Email</strong></p>
                             <p>xhantijacob@gmail.com</p>
-                                </div>
-                                </div>
+                                <!-- </div>
+                                </div> -->
                             <div class="clear "></div>
                         <span class="icon">
                     <i class="fab fa-facebook"><a href="https://www.facebook.com/xhanti.jacob"></a></i>
@@ -338,16 +323,18 @@
                     </span>
                         </div>                  
                             </div>
+                        </div>
+                        </div>
  
 
            
 <!--==============================
 footer
 =================================-->
-<div class="container9">
+<div class="container9 ">
     <footer id="footer ">
-        <div class="content has-text-centered">
-            <div class="copyright"> &copy; <span id="copyright-year">2018</span>|
+        <div class="jumbotron text-center style= "margin-bottom:0">
+            <div class="copyright"> &copy; <span id="copyright-year">2019</span>|
                 <a href="#">Rights Reserved. BY X.</a> <br>
                     </div>
                         </div>
